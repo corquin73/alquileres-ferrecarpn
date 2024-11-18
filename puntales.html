@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <style>
+        /* Reset de estilo */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Diseño general */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a; /* Fondo negro */
+            color: #fff; /* Texto blanco */
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #004d00; /* Verde intenso */
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #FFFFFF;
+        }
+
+        /* Sección de detalles del producto */
+        .product-details {
+            display: flex;
+            background-color: #333; /* Fondo gris oscuro */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-image img {
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-right: 20px;
+        }
+
+        .product-info {
+            flex: 1;
+        }
+
+        .product-info h2 {
+            font-size: 2rem;
+            color: #FFFFFF; /* blanco*/
+            margin-bottom: 10px;
+        }
+
+        .product-info p {
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .product-info ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .product-info button {
+            background-color: #004d00;
+            color: #fff;
+            border: none;
+            padding: 15px 20px;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-info button:hover {
+            background-color: #003300; /* Un verde más oscuro para el hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Detalles del Producto</h1>
+        </header>
+
+        <section class="product-details">
+            <div class="product-image">
+                <img src="img/OIP.jfif" alt="Imagen del Producto">
+            </div>
+            <div class="product-info">
+                <h2>PUNTALES</h2>
+                <p><strong>Precio de alquiler:</strong> $6.00 por mes</p>
+                <p><strong>Descripción:</strong> Son de andamios de acero galvanizado de buena calidad el precio de alquiler incluye los marco del andamios y las cruzetas.</p>
+                <p><strong>:caracteristicas</strong></p>
+                <ul>
+                    <li>Característica 1</li>
+                    <li>Característica 2</li>
+                    <li>Característica 3</li>
+                </ul>
+                <button>Comprar Ahora</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

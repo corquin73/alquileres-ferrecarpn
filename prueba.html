@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado en Movimiento</title>
+    <style>
+        /* Define el estilo del encabezado */
+        #encabezado {
+            font-size: 2em;
+            font-weight: bold;
+            white-space: nowrap;
+            position: relative;
+            animation: moverDerechaAIzquierda 10s linear infinite;
+            color: #333;
+            padding: 10px;
+            background-color: #e0f7fa;
+        }
+
+        /* Animación de movimiento de derecha a izquierda */
+        @keyframes moverDerechaAIzquierda {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="encabezado">¡Bienvenidos a mi página web!</header>
+</body>
+</html>
+
